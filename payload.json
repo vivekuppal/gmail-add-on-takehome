@@ -1,0 +1,7 @@
+{
+  "from": "sender@example.com",
+  "to": ["a@firm.com", "b@firm.com"],
+  "bcc": ["hidden@firm.com"],
+  "subject": "Hello",
+  "body_text": "This is a test email body."
+}
