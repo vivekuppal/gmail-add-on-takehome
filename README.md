@@ -4,6 +4,7 @@ Create a Google Workspace Plugin that does the following
 
 - When a user is composing an email, the Add On captures the following info
 	- To, CC, Bcc recipients
+	- Subject of the message
 	- Text of the message
 
 - Add On Sends this information as an API call to a backend server.
