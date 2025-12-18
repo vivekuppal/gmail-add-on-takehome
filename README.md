@@ -46,4 +46,9 @@ Sample request to API
 curl -X POST "http://127.0.0.1:8080/analyze_simple" -H "Content-Type: application/json" -H "X-API-Key: dev-secret" --data-binary "@payload.json"
 ```
 
+You will have to use ngrok (or something similar) to expose the localservice to public internet through a secure tunnel. Without this gmail servers would not be able to see you service running locally.
+```
+ngrok http 8080
+```
+
 For your submission, please zip a copy of the folder with changes and send that over. Do not include the virtual env files in the submission.
